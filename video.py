@@ -22,6 +22,7 @@ async def on_member_join(member):
    
    
 @client.event
+async def on_message(message):
     if message.content.startswith('!janee'):
         randomlist = ['Ja','Nee']
         await client.send_message(message.channel,(random.choice(randomlist)))
