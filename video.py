@@ -14,7 +14,7 @@ async def on_ready():
    
 @client.event
 async def on_member_join(member):
-    await client.send_message(member, "Welkom bij GewoonMarco! Heb een leuke tijd en vergeet zeker niet om een command zoals !janee te proberen of natuurlijk 'help' fijne dag!")
+    await client.send_message(member, "Welkom bij deze server! Heb een leuke tijd en vergeet zeker niet om een command zoals !janee te proberen of natuurlijk 'help' fijne dag!")
     await client.send_message(member, "-------------------------------------------------------------------")
     await client.send_message(member, "In deze server ben je een trekvogel")
     await client.send_message(member, "Je kan samen trekken met de trekvogels")
