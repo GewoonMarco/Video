@@ -17,7 +17,7 @@ async def on_member_join(member):
     await client.send_message(member, "Welkom bij **__Google Nederland__**! Heb een leuke tijd en vergeet zeker niet om een command zoals !janee te proberen of natuurlijk 'help' fijne dag!")
     await client.send_message(member, "-------------------------------------------------------------------")
     await client.send_message(member, "Lees de regels zodat je geen waarschuwingen krijgt!")
-    await client.send_message(member, "Hou je je aan de regels?")
+    await client.send_message(member, "Hou je het wel gezellig?!")
     await client.send_message(member, "-------------------------------------------------------------------")
    
    
