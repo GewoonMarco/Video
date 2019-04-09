@@ -33,4 +33,4 @@ async def on_message(message):
     if message.content == '!test':
         await client.send_message(message.channel,'test xD
      
-client.run('NTYyNjc4Mzk3MTUxNjA4ODM0.XKzojQ.Ee1-LMEfqof4zrbJ6wP74EDjh6Y')
+client.run('NTYyNjc4Mzk3MTUxNjA4ODM0.XKzqQg.pqaWPUQUTsDvekSA2YXNooVEX48')
