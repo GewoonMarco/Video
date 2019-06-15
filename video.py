@@ -5,13 +5,9 @@ import asyncio
 from discord import Game
  
 Client = discord.client
-client = commands.Bot(command_prefix = '!')
+client = commands.Bot(command_prefix = ':')
 Clientdiscord = discord.Client()
  
-@client.event
-async def on_ready():
-    await client.change_presence(game=Game(name='trekvogels'))
-    print('trekvogel is ready :)')
    
 @client.event
 async def on_member_join(member):
